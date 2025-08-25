@@ -24,7 +24,7 @@ while True:
     import random
 word_list = ["Python", "Javascript", "Java", "Automation", "Pytest", "Guvi", "Selenium"]
 secret_word =random.choice(word_list).lower()
-jumble = list(secret_word)
+jumble = list(secret_word)x
 random.shuffle(jumble)
 jumble = ''.join(jumble)
 while True:
